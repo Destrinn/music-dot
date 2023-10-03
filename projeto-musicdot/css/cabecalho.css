@@ -1,0 +1,70 @@
+.cabecalho {
+    
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+
+}
+
+.cabecalho__logo {
+    width: 14.5em;
+    padding-bottom: 1rem;
+
+}
+
+.cabecalho__menu {
+    background-color: #272B3A87;
+}
+
+.cabecalho__item-menu {
+
+    display: inline-block;
+}
+
+.cabecalho__item-menu a {
+    display: inline-block;
+    padding: 1.86em 1.42em;
+}
+
+
+ 
+@media	(max-width:	640px)	{
+    .cabecalho	{
+            padding-top: 0;
+            padding-bottom: 0;
+            display:	block;
+    }
+    .cabecalho__logo	{
+            padding: 2.5em 0;
+    }
+    .cabecalho__menu	{
+            background-color:	transparent;	
+    }
+}
+
+
+@media (min-width: 720px) {
+    .cabecalho__item-menu--Matricule-se { 
+        background-color: #e93d50;
+        margin-left: 1.42em;
+        border-radius: 6px;
+    }
+
+    .cabecalho__item-menu--Matricule-se a {
+        padding: 1.8em 3.5em;
+
+    }
+}
+
