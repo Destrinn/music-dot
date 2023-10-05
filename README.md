@@ -1,6 +1,6 @@
 # MusicDot - Página Principal
 
-Este é o código-fonte da página principal do site MusicDot.
+Este código consiste na réplica do site da Music Dot. O Código-fonte foi fento com HTML e CSS
 <br>
 ![PrintInicio](https://github.com/Destrinn/music-dot/assets/141870172/df71231e-bf6d-433c-bcd0-c0b692b7a61f)
 
